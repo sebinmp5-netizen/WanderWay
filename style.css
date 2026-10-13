@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background: url(https://www.brit.co/media-library/french-riviera.jpg?id=55295120&width=980) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;  
+    margin: 30px 50px;  
+    border-radius: 12px;
+}

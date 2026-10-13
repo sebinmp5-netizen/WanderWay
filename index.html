@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWay</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#">WanderWay</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Destinations</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <button class="btn btn-outline-success me-5" type="submit">Plan Your Trip</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero banner -->
+     <div class="hero">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Discover beautiful destinations, explore hidden gems, and experience new cultures. Let every journey bring you unforgettable memories and exciting adventures.</p>
+        <button>Explore Destinations</button>
+     </div>
+
+     <!-- cards -->
+      <h1 class="text-center">Destinations</h1>
+      <section id="cards" class="d-flex flex-wrap gap-5">
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.clubmahindra.com/blog/media/section_images/internatio-3c7708bf333b9cd.jpg" class="card-img-top" alt="no image">
+            <div class="card-body">
+                <h5 class="card-title">Thailand</h5>
+                <p class="card-text">Explore Thailand’s beautiful beaches, stunning islands, ancient temples, and vibrant culture. Enjoy delicious food and unforgettable adventures in this tropical paradise.</p>
+                <p class="card-text">1000$</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        View Details
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <img class="img-fluid" src="https://www.clubmahindra.com/blog/media/section_images/internatio-3c7708bf333b9cd.jpg" alt="no image">
+
+                            <div class="modal-header">
+                                <h5>Thailand</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>Explore Thailand’s beautiful beaches, stunning islands, ancient temples, and vibrant culture. Enjoy delicious food and unforgettable adventures in this tropical paradise.</p>
+                                <p>Best time to visit : April - May</p>
+                                <p>Starting price per person : 1000$</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+
+            </div>
+        </div>
+        <!-- card2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.tripsavvy.com/thmb/GKyG-p3qSCWFgl9d-YBF6sLRIrY=/5760x3840/filters:fill(auto,1)/GettyImages-559699279-58f4f3cb5f9b582c4dfb1b29.jpg" class="card-img-top" alt="no image">
+            <div class="card-body">
+                <h5 class="card-title">Paris</h5>
+                <p class="card-text">Discover the beauty of Paris, the City of Love, famous for the Eiffel Tower, charming streets, historic landmarks, and world-class cuisine. Enjoy its romantic atmosphere, art, and unforgettable experiences.</p>
+                <p class="card-text">800$</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Launch static backdrop modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <!-- card3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://blog.tournkey.com/hubfs/Blog%20Header%20for%20Tournkey%20-%20Best%20Travel%20Destinations%20New%20York%20City.png" class="card-img-top" alt="no image">
+            <div class="card-body">
+                <h5 class="card-title">New York</h5>
+                <p class="card-text">Explore New York City, the city that never sleeps, famous for Times Square, the Statue of Liberty, Central Park, and its stunning skyline. Enjoy exciting attractions, diverse cultures, shopping, and unforgettable city adventures.</p>
+                <p class="card-text">700$</p>
+                <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Launch static backdrop modal
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+            </div>
+        </div>
+        <!-- card4 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://guides4me.com/wp-content/uploads/2024/07/kathmandu.png" class="card-img-top" alt="no image">
+            <div class="card-body">
+                <h5 class="card-title">Nepal</h5>
+                <p class="card-text">Discover Nepal’s breathtaking mountains, peaceful temples, and beautiful landscapes. From the majestic Himalayas to charming villages, enjoy thrilling adventures, rich culture, and unforgettable experiences in this beautiful destination.</p>
+                <p class="card-text">500$</p>
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Launch static backdrop modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <!-- card5 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/10/18182423/great-wall-of-china.jpg" class="card-img-top" alt="no image">
+            <div class="card-body">
+                <h5 class="card-title">China</h5>
+                <p class="card-text">Explore China’s incredible beauty, from the Great Wall and ancient temples to modern cities and stunning landscapes. Experience its rich history, vibrant culture, delicious cuisine, and unforgettable adventures.</p>
+                <p class="card-text">1500$</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- card6 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?cs=srgb&dl=pexels-pixabay-38238.jpg&fm=jpg" class="card-img-top" alt="no image">
+            <div class="card-body">
+                <h5 class="card-title">Maldives</h5>
+                <p class="card-text">Discover the Maldives, a tropical paradise with crystal-clear waters, white sandy beaches, and luxurious overwater villas. Enjoy snorkeling, breathtaking sunsets, and peaceful island escapes for an unforgettable holiday.</p>
+                <p class="card-text">1200$</p>
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Launch static backdrop modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- about us -->
+       <section>
+        <div>
+            <h1></h1>
+        </div>
+       </section>
+
+       <!-- footer -->
+        <section class="">
+            <div class="text-center">
+                <h2>WanderWay</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio aspernatur, voluptate beatae nulla quia dolores vero, quos ipsa explicabo autem laborum culpa molestias. Repellat necessitatibus expedita hic? Nisi, doloremque?</p>
+            </div>
+            <div class="m-5">
+                <p>+91 7356474</p>
+                <p>info@gmail.com</p>
+                <a href="" class="text-black"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="text-black"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="text-black"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <div>
+            </div>
+            <footer class="text-center">
+                &copy; Designed by WanderWay, All Rights Are Reserved
+            </footer>
+        </section>
+</body>
+<!-- bootstrap script -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
